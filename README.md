@@ -20,7 +20,7 @@ A multi-agent AI-powered customer support system built with [CrewAI](https://doc
 ## 📁 Project Structure
 
 ```
-.
+Multi-Agent-Customer-Support/
 ├── agents/               # Crew agents for different domains
 │   ├── __init__.py  
 │   ├── base_agent.py  
