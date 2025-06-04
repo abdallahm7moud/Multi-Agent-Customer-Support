@@ -28,10 +28,10 @@ Multi-Agent-Customer-Support/
 │   ├── ecommerce_crew.py  
 │   ├── telecom_crew.py  
 │   └── router_crew.py  
-├── config/               # Config files (LLM, environment settings)
+├── config/               # LLM and environment configurations
 │   ├── llm_config.py
 │   └── settings.py
-├── data/
+├── data/                 # Data resources 
 │   ├── knowledge_base/            # Domain-specific documents
 │   └── customer_support.db        # SQLite3 customer data
 ├── database/             # Database and vector store management  
