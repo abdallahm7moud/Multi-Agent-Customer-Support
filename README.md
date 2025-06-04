@@ -1,4 +1,3 @@
-
 # Multi-Agent-Customer-Support 🤖📞💳
 
 A multi-agent AI-powered customer support system built with [CrewAI](https://docs.crewai.com/) and [DeepSeek](https://huggingface.co/deepseek-ai), tailored to handle user queries across **Banking**, **E-commerce**, and **Telecom** domains. This project simulates a smart support team capable of accessing domain-specific knowledge and customer information to respond interactively through a friendly [Streamlit](https://streamlit.io) interface.
