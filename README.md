@@ -22,23 +22,30 @@ A multi-agent AI-powered customer support system built with [CrewAI](https://doc
 ```
 .
 ├── agents/               # Crew agents for different domains
-│   ├── banking_crew.py
-│   ├── ecommerce_crew.py
-│   ├── telecom_crew.py
-│   └── base_agent.py
+│   ├── __init__.py  
+│   ├── base_agent.py  
+│   ├── banking_crew.py  
+│   ├── ecommerce_crew.py  
+│   ├── telecom_crew.py  
+│   └── router_crew.py  
 ├── config/               # Config files (LLM, environment settings)
 │   ├── llm_config.py
 │   └── settings.py
 ├── data/
 │   ├── knowledge_base/   # Domain-specific documents
 │   └── customer_support.db  # SQLite3 customer data
-├── database/
-│   ├── vector_manager.py  # ChromaDB integration
-│   └── sql_manager.py
-├── tools/                # Toolkits for domain logic
-│   ├── banking_tools.py
-│   ├── ecommerce_tools.py
-│   └── telecom_tools.py
+├── database/                      # Database and vector store management  
+│   ├── __init__.py  
+│   ├── init_db.py                 # DB initializer  
+│   ├── sample_data.py             # Insert test data  
+│   ├── sql_manager.py             # SQLite operations  
+│   └── vector_manager.py          # ChromaDB operations 
+├── tools/                # Toolkits for domain-specific logic
+│   ├── __init__.py  
+│   ├── banking_tools.py  
+│   ├── ecommerce_tools.py  
+│   ├── telecom_tools.py  
+│   └── common_tools.py 
 ├── ui/                   # Streamlit UI components
 │   ├── components.py
 │   └── styles.py
