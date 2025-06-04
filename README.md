@@ -32,9 +32,9 @@ A multi-agent AI-powered customer support system built with [CrewAI](https://doc
 │   ├── llm_config.py
 │   └── settings.py
 ├── data/
-│   ├── knowledge_base/   # Domain-specific documents
-│   └── customer_support.db  # SQLite3 customer data
-├── database/                      # Database and vector store management  
+│   ├── knowledge_base/            # Domain-specific documents
+│   └── customer_support.db        # SQLite3 customer data
+├── database/             # Database and vector store management  
 │   ├── __init__.py  
 │   ├── init_db.py                 # DB initializer  
 │   ├── sample_data.py             # Insert test data  
@@ -49,9 +49,11 @@ A multi-agent AI-powered customer support system built with [CrewAI](https://doc
 ├── ui/                   # Streamlit UI components
 │   ├── components.py
 │   └── styles.py
-├── main.py               # Entry point for Streamlit app
-├── requirements.txt      # Python dependencies
-└── README.md             # Project info
+├── .env.example                   # Example environment config
+├── .gitignore                     # Files and folders to be excluded from Git tracking
+├── main.py                        # Entry point for Streamlit app  
+├── requirements.txt               # Project dependencies 
+└── README.md                      # Project info
 ```
 
 ---
