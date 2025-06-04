@@ -113,9 +113,3 @@ streamlit run main.py
 
 Experience the full application here:  
 👉 **[https://multi-agent-customer-support.streamlit.app/](https://multi-agent-customer-support.streamlit.app/)**
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
